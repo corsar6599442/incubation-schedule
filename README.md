@@ -1,2 +1,2 @@
 # incubation-schedule
-This is my first standalone web application development project.
+This is my first independent project to develop web applications on the vue engine.
