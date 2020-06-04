@@ -4,5 +4,10 @@ var vue = new Vue({
         message: 'Режим инкубации',
         context: 'Заголовок элемента',
         textSearch: '',
-    },
+        dateSearch: '',
+        },
+    watch: {
+     
+          
+        },
     })
