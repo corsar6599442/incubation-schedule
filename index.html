@@ -22,9 +22,37 @@
        <div>
            <h1> {{ message }} </h1>
             <input type="date" v-model="dateSearche">
+            <select name="" id="">
+                <option value="">Индоутка</option>
+                <option value="">Гусь</option>
+                <option value="">Утка</option>
+                <option value="">Индейка</option>
+                <option value="">Курица</option>
+                <option value="">Цесарка</option>
+                <option value="">Перепёлка</option>
+            </select>
         </div>
+        
         <div class="div-egg">
 
+        </div>
+        <div id="table" class="div-table">
+            <table border="1">
+                <thead>
+                    <th>Дата</th>
+                    <th>День</th>
+                    <th>Температура</th>
+                    <th>Влажность</th>
+                    <th>Поворот</th>
+                    <th>Проветривание</th>
+                </thead>
+                <tbody>
+                    <tr v-for="">
+                        <td>{{  }}</td>
+                        <td>{{  }}</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
     

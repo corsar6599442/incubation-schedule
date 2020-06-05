@@ -19,3 +19,10 @@ var clock = new Vue({
         date: ''
     }
 });
+
+var table = new Vue({
+    el: '#table',
+    data: {
+
+    }
+});

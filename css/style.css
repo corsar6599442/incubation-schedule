@@ -3,15 +3,24 @@ html,body {
 background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
 }
 
-.div-clock {
-    background: #0f3854;
-    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
-    background-size: 100%;
+h1 {
+    text-align: center;
+    color: #b752a7;
 }
 
 p {
     margin: 0;
     padding: 0;
+}
+
+th {
+    padding: 3px;
+}
+
+.div-clock {
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
 }
 
 #clock {
