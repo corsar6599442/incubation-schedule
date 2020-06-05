@@ -10,4 +10,12 @@ var vue = new Vue({
      
           
         },
-    })
+    });
+
+var clock = new Vue({
+    el: '#clock',
+    data: {
+        time: '',
+        date: ''
+    }
+});

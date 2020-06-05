@@ -9,9 +9,23 @@
 </head>
 
 <body>
+    <div id="clock" class="div-clock">
+        <div>
+            <p class="date">{{ date }}</p>
+            <p class="time">{{ time }}</p>
+            <!-- <p class="text">DIGITAL CLOCK with Vue.js</p> -->
+        </div>
+        <script src="./javascript/clock.js"></script>
+    </div>
+
     <div id="vue">
-       <h1> {{ message }} </h1>
-       <input type="date" v-model="dateSearche">
+       <div>
+           <h1> {{ message }} </h1>
+            <input type="date" v-model="dateSearche">
+        </div>
+        <div class="div-egg">
+
+        </div>
     </div>
     
     <script src="./vue/scripts/vue.js"></script>
