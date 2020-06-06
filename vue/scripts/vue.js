@@ -5,6 +5,7 @@ var vue = new Vue({
         context: 'Заголовок элемента',
         textSearch: '',
         dateSearch: '',
+        content: 'Здесь будет описание',
         },
     watch: {
      
@@ -24,5 +25,12 @@ var table = new Vue({
     el: '#table',
     data: {
 
+    }
+});
+
+var description = new Vue({
+    el: '#description',
+    data: {
+        
     }
 });
