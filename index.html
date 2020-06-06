@@ -9,9 +9,53 @@
 </head>
 
 <body>
+    <div class="div-egg"></div>
+    <div class="div-egg1"></div>
+    <div class="div-egg2"></div>
+    <div id="clock" class="div-clock">
+        <div>
+            <p class="date">{{ date }}</p>
+            <p class="time">{{ time }}</p>
+            <!-- <p class="text">DIGITAL CLOCK with Vue.js</p> -->
+        </div>
+        <script src="./javascript/clock.js"></script>
+    </div>
+    
     <div id="vue">
-       <h1> {{ message }} </h1>
-       
+       <div>
+           <h1> {{ message }} </h1>
+            <input type="date" v-model="dateSearche">
+            <select name="" id="birds">
+                <option value="" id="muscovyDuck">Индоутка</option>
+                <option value="" id="goos">Гусь</option>
+                <option value="" id="duck">Утка</option>
+                <option value="" id="turkey">Индейка</option>
+                <option value="" id="chick">Курица</option>
+                <option value="" id="guineaFowl">Цесарка</option>
+                <option value="" id="quail">Перепёлка</option>
+            </select>
+        </div>
+    
+        <div id="description">
+            <p>{{ content }}</p>
+        </div>
+        <div id="table">
+            <table border="1">
+                <thead>
+                    <th>Дата</th>
+                    <th>День</th>
+                    <th>Температура</th>
+                    <th>Влажность</th>
+                    <th>Поворот</th>
+                    <th>Охлаждение</th>
+                </thead>
+                <tbody>
+                    <tr v-for="">
+                        <td>{{  }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     
     <script src="./vue/scripts/vue.js"></script>
