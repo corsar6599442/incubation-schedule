@@ -26,21 +26,22 @@
            <h1> {{ message }} </h1>
             <input type="date" v-model="dateSearche">
             <select name="" id="birds">
-                <option value="" id="muscovyDuck">Индоутка</option>
-                <option value="" id="goos">Гусь</option>
-                <option value="" id="duck">Утка</option>
-                <option value="" id="turkey">Индейка</option>
-                <option value="" id="chick">Курица</option>
-                <option value="" id="guineaFowl">Цесарка</option>
-                <option value="" id="quail">Перепёлка</option>
+                <option value="Индоутка" id="muscovyDuck"></option>
+                <option value="Гусь" id="goos">Гусь</option>
+                <option value="Утка" id="duck">Утка</option>
+                <option value="Индейка" id="turkey">Индейка</option>
+                <option selected value="Курица" id="chick">Курица</option>
+                <option value="Цесарка" id="guineaFowl">Цесарка</option>
+                <option value="Перепёлка" id="quail">Перепёлка</option>
             </select>
+            <button>Отправить</button>
         </div>
     
         <div id="description">
             <p>{{ content }}</p>
         </div>
-        <div id="table">
-            <table border="1">
+        <template>
+            <table border="1" id="table">
                 <thead>
                     <th>Дата</th>
                     <th>День</th>
@@ -55,7 +56,7 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </template>
     </div>
     
     <script src="./vue/scripts/vue.js"></script>
